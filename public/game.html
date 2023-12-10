@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> Home Page </title>
+  <link rel="stylesheet" type="text/css" href="home.css" title="style" /> 
+  <script src="game.js"></script>
+</head>
+<body onload="onload()">
+  
+  <div class="column1">
+    <h2 id="answer"> </h2>
+    <h1 class="Choose"> Choose One of the Questions </h1>
+
+    <div>
+      <a href="input.html"><button class="home" id="more" type="button" onclick="set_question_type(0)"> Is the number greater than </button></a>
+    </div>
+    <div>
+      <a href="input.html"><button class="home" id="less" type="button" onclick="set_question_type(1)"> Is the number less than </button></a>
+    </div>
+    <div>
+      <a href="input.html"><button class="home" id="ready" type="button" onclick="set_question_type(2)"> Ready! Guess the number </button></a>
+    </div>
+    </div>
+
+    <div class="restart">
+      <a href="index.html"> <button type="button" class="home" id="restart"> Restart</button> </a> 
+    </div>
+
+  	
+   
+   
+  <footer>&copy; Author(s): <span> Hiva Karami, Nikita, Mehwish saiyed</span> </footer>
+</body>
+</html>

@@ -1,0 +1,258 @@
+/* guess the number*/
+header
+{
+	padding: 25px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-style: italic;
+	color: white;
+	font-size: xx-large;
+}
+/* choose your level*/
+.how{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-style: italic;
+	color:blue;
+	font-size: 60px;	
+
+}
+
+* {
+  box-sizing: border-box;
+  background-color:black;
+}
+
+body 
+{
+	font-family: NimbusSanL, Arial, sans-serif;
+	text-align: center;
+	color:#212121;
+	background-color:black; 
+    border-color: #b621fe;
+	border: none;
+
+}
+
+div
+{
+   margin: 30px;
+}
+
+.Choose{
+	color:aquamarine;
+}
+
+
+#name {
+	border-style: inset;
+    border-color: white;
+    color: white;
+    text-align: left;
+
+}
+
+#name:active{
+	border-style:inset;
+}
+
+.Username{
+box-sizing: border-box;
+background-color: none;
+color: white;
+border-style: solid;
+border-color: white;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+padding: 20px;
+margin-top: 70px;
+}
+
+.Username:hover{
+	border-color: aquamarine;
+}
+
+p {
+	text-align:center;
+	padding: 20px;}
+
+button {
+	font:inherit;
+	color:Blue;
+	width:100px;
+	padding-left: 5px;
+}
+
+#congraduation{
+	color: aquamarine;
+	font-size: 50px;
+}
+button,a{
+    color:DarkSlateGrey;
+    width: 300px;
+    height: 50px;
+    border-radius: 5%;
+}
+#question{
+	font-weight: bold;
+	color: white;
+	font-variant: small-caps;
+}
+
+#ques{
+	width: auto;
+}
+#Easy{
+background-color: rgb(162, 90, 238);
+}
+
+#Medium{
+background-color: rgba(137, 39, 236, 0.899);
+}
+#Hard{
+background-color: rgb(74, 5, 144);
+}
+div.howtoplay{
+	color: white;
+	width:max-content;
+	text-align: left;
+	border: solid;
+	border-radius: 15px;
+	border-color: white;
+	padding: 20px;
+	margin: auto;
+	align-content: space-between;
+	font-size:large;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.home
+{
+	color : white; 
+	font-family: NimbusSanL, Arial, sans-serif;
+	border-radius: 10px;
+	border-style: solid;
+}
+.home:hover{
+	border-color: aqua;
+}
+
+.restart{
+	margin-top: 40px;
+}
+#restart{
+	font-size: 25px;
+	display: block;
+	width:4cm;
+	background-color: green;
+}
+
+
+#restart:hover{
+	border-top: 105px;
+	border-bottom: 5px;
+	border: blueviolet;
+	background-color: white;
+	color: green;
+}
+#less,#more, #ready {
+	background-color: darkblue;
+	width: 12cm;
+	height: 2cm;
+	font-size: 30px;
+	margin-top: 1.5cm;
+}
+
+#start{
+	display: inline;
+}
+#play
+{
+	background-color: rgba(137, 26, 240, 0.945);	
+}
+
+#howtoplay
+{
+	background-color: rgba(20, 20, 230, 0.963);
+}
+
+input#name
+{
+
+	padding-left: 5px;
+}
+
+#next{
+background-color:rgba(20, 20, 230, 0.963);
+width: 120px;
+}
+
+#answer{
+	color: #b621fe;
+}
+strong {
+	font-family: NimbusSanL, Arial, sans-serif;
+	font-size:1.2em;
+	color:Green; 
+	text-decoration:bold;
+}
+
+footer{
+	padding-top:10px;
+	text-align:center;
+	font-size:10px;
+	color:LightSlateGrey;
+}
+input{
+	font-size: larger;
+	font-family:Arial, Helvetica, sans-serif;
+	color: white;
+	border: white;
+	border: solid;
+	border-width: 2px;
+}
+
+#paper{
+	align-items: last center;
+}
+#Enter{
+	font-size: 25px;
+	width:4cm;
+	background-color:darkmagenta;
+}
+/* Responsive layout - makes the columns stack on
+   top of each other instead of next to each other */
+
+  [class*="column"] { 
+     width: 80%;
+     display:inline-block;
+     height:60vh;
+	 font-size:1.5em;
+  }
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:50%;
+  }
+  
+}
+/* scoreboard css here*/
+.topHeading {
+	color: goldenrod;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 80px;
+}
+
+#table{
+	color: blue;
+	border-width: 10px;
+	border: solid;
+	border-color: #b621fe;
+}
+tr, td {
+	color: thistle;
+	border-width: 10px;
+	border: solid;
+	border-color: #b621fe;
+	
+}
+#top{
+	color: thistle;
+}
