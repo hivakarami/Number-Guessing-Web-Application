@@ -1,4 +1,4 @@
-Number Gussing game in JavaScrips + Node.js + Express
+Number Guessing game in JavaScrips + Node.js + Express
 
 ### Getting Started
     npm install
