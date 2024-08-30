@@ -1,5 +1,5 @@
 Number Guessing game in JavaScrips + Node.js + Express
-https://number-guessing-game-xkfq.onrender.com/
+: https://number-guessing-game-xkfq.onrender.com/
 
 ### Getting Started
     npm install
